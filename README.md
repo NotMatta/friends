@@ -1,9 +1,19 @@
-# Friends? (I have none)
-just an app to experiment with sockets and satisfy myself
+# Friends
+A Web Chat app that uses sockets to update in real time (duh)
 
-## What does it do
-basically a chat app where you insert a room or create one then chat there, using a database and a server to store rooms and messages, the user would be stored locally but upon joining a room it would be saved in the database and upon leaving it will be deleted from the database, as simple as that ig
+## Why?
+I tried to make discord clone first but I needed to learn how to use sockets first, so here it is
 
+## Demo:
+No.
 
-## Which tech I would be using?
-I'm thinking of simply using react with some tailwind, because next js would be an overkill in my opinion, also adding some tailwind and maybe some shadcn componenets, and for the server I will use socket.io alongside express.js and prisma for the sake of simplicity and voila, simple chat app
+## Tech:
+- Vite/React
+- TailwindCSS
+- Prisma.io
+- Socket.io
+
+## Notes:
+I forgot to upload this project in github so here it is, anyway bye 🙂
+
+![](https://i.pinimg.com/736x/e1/fe/f7/e1fef7151ff8871d2d24d8ea49d87f82.jpg)
