@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Room {
+    id       Int      @id @default(autoincrement())
+    room   String     @unique
+    messages Message[]
+}
+
+model Message {
+    id       Int      @id @default(autoincrement())
+    content  String
+    author String
+    authorPfp String
+    Room    Room  @relation(fields:[room], references:[room])
+    room  String
+    date  DateTime? @default(now())
+}

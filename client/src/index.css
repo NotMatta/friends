@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    @apply bg-background text-white;
+    font-family: "Roboto";
+}
+
+*{
+    @apply border-border;
+}
+
+input.panel{
+    @apply outline-none bg-background border p-2 rounded-xl;
+}
+
+button.default{
+    @apply bg-primary text-background p-2 rounded-md;
+}
+
+button.outlined{
+    @apply  p-2 rounded-md border border-primary;
+}
